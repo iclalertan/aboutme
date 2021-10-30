@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <span id=yaz></span>
+    <label for="kilo">kilonuz :</label>
+    <input type="number" id="kilo" required>
+    <label for="boy">Boyunuz:</label>
+    <input type="number" id="boy" required>
+    <button type="button" onclick='vkihesapla()'>Hesapla</button>
+
+    <script>
+        function vki(){
+            var kilo = document.getElementById("kilo").value;
+            var boy = document.getElementsById("boy").value;
+            var bki = kilo / (noy**2);
+            alert(vki);
+
+            var goster = document.getElementById("goster");
+            goster.style.color= "red";
+            goster.style.backgroundColor ="#ff0000";
+            goster.innerText = "<span>" + vki + "</span>"
+
+
+
+
+        }
+    </script>
+</body>
+</html>
